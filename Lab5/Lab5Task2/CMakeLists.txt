@@ -13,7 +13,12 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(Lab5Task2 main.cpp)
+add_executable(Lab5Task2 main.cpp
+        Widget.cpp
+        Widget.h
+        Widget.ui
+        String.cpp
+        String.h)
 target_link_libraries(Lab5Task2
         Qt5::Core
         Qt5::Gui
