@@ -13,7 +13,8 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(Lab8Task3 main.cpp)
+add_executable(Lab8Task3 main.cpp
+        RBTree.h)
 target_link_libraries(Lab8Task3
         Qt5::Core
         Qt5::Gui
